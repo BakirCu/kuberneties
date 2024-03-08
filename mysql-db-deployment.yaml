@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mysql-db
-        image: bakircuric/mysql-db:latest
+        image: bakircuric/mysql-db:v1
         env:
           - name: MYSQL_ROOT_PASSWORD
             value: your_root_password_here
