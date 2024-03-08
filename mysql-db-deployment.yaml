@@ -17,11 +17,9 @@ spec:
         image: bakircuric/mysql-db:latest
         env:
           - name: MYSQL_ROOT_PASSWORD
-            value: your_mysql_password_here
+            value: your_root_password_here
           - name: MYSQL_HOST
             value: mysql
-          - name: MYSQL_USER
-            value: root
           - name: MYSQL_DB
             value: flask_mysql_db
         ports:
