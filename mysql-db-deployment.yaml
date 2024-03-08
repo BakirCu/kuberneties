@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: mysql-db
+        app: mysql
     spec:
       containers:
       - name: mysql-db
