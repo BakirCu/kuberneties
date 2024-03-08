@@ -4,7 +4,7 @@ metadata:
   name: mysql-db
 spec:
   selector:
-    app: mysql-db
+    app: mysql
   ports:
     - protocol: TCP
       port: 3306
